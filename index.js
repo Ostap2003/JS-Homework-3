@@ -5,7 +5,6 @@ const parentElement = document.getElementsByClassName('box-container')[0];
 const element = document.getElementsByClassName('box')[0];
 addListeners(element);
 
-console.log(parentElement.children);
 
 function addListeners(element) {
     element.addEventListener('contextmenu', rightClickHandler);
